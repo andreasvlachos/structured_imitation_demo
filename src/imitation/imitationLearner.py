@@ -4,6 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 
 import random
 
+
 class ImitationLearner(object):
 
     # initialize the classifier to be learned
@@ -53,7 +54,6 @@ class ImitationLearner(object):
             self.learningParam = 0.1
             self.iterations = 40
 
-    #@profile
     def train(self, structuredInstances, params):
         # create the dataset
         trainingFeatures = []

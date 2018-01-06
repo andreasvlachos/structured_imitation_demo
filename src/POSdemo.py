@@ -8,7 +8,6 @@ ex = Experiment()
 # We first need to define the input
 class POSInput(imitation.StructuredInput):
     def __init__(self, tokens):
-        #super().__init__()
         self.tokens = tokens
 
     def __str__(self):
