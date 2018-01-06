@@ -157,7 +157,6 @@ def toy_experiment():
     print("With DAgger training")
     # set the params
     paramsImit = POSTagger.params()
-    # Setting the iterations to one means on iteration, i.e. exact imitation. The learning rate becomes irrelevant then
     paramsImit.iterations = 2
     paramsImit.learningParam = 1
 
